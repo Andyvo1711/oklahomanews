@@ -1,26 +1,134 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-canvas-white: #ffffff;
+  --color-prairie-paper: #f6f3ed;
+  --color-cloud-gray: #e5e7e5;
+  --color-border-stone: #d3d5d1;
+  --color-storm-charcoal: #242827;
+  --color-muted-gray: #6f7774;
+  --color-prairie-blue: #3d6574;
+  --color-deep-sky: #294b59;
+  --color-red-earth: #a65f45;
+  --color-wheat: #d6b978;
+
+  --background: var(--color-canvas-white);
+  --foreground: var(--color-storm-charcoal);
 }
 
 @theme inline {
+  --color-canvas-white: var(--color-canvas-white);
+  --color-prairie-paper: var(--color-prairie-paper);
+  --color-cloud-gray: var(--color-cloud-gray);
+  --color-border-stone: var(--color-border-stone);
+  --color-storm-charcoal: var(--color-storm-charcoal);
+  --color-muted-gray: var(--color-muted-gray);
+  --color-prairie-blue: var(--color-prairie-blue);
+  --color-deep-sky: var(--color-deep-sky);
+  --color-red-earth: var(--color-red-earth);
+  --color-wheat: var(--color-wheat);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-serif: var(--font-source-serif);
+  --font-sans: var(--font-inter);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.font-serif-heading {
+  font-family: var(--font-source-serif), Georgia, "Times New Roman", serif;
+}
+
+/* Article body typography */
+.article-body {
+  font-family: var(--font-source-serif), Georgia, "Times New Roman", serif;
+  color: var(--color-storm-charcoal);
+  font-size: 1.125rem;
+  line-height: 1.75;
+}
+
+.article-body h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--color-storm-charcoal);
+}
+
+.article-body h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1.75rem;
+  margin-bottom: 0.875rem;
+}
+
+.article-body p {
+  margin-bottom: 1.25rem;
+}
+
+.article-body a {
+  color: var(--color-prairie-blue);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.article-body strong {
+  font-weight: 700;
+}
+
+.article-body ul,
+.article-body ol {
+  margin: 1.25rem 0 1.25rem 1.5rem;
+}
+
+.article-body ul {
+  list-style-type: disc;
+}
+
+.article-body ol {
+  list-style-type: decimal;
+}
+
+.article-body li {
+  margin-bottom: 0.5rem;
+}
+
+.article-body blockquote {
+  border-left: 3px solid var(--color-red-earth);
+  padding-left: 1.25rem;
+  margin: 1.75rem 0;
+  font-style: italic;
+  color: var(--color-storm-charcoal);
+}
+
+.article-body blockquote p {
+  margin-bottom: 0;
+}
+
+/* Visually-hidden utility for accessible skip text */
+.sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
