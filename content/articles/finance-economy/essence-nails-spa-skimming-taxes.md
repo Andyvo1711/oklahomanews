@@ -3,6 +3,7 @@ title: "Essence Nails & Spa: The Charge That Doesn't Show Up: What Every Nail Sa
 slug: "essence-nails-spa-skimming-taxes"
 excerpt: "Charging part of a service on the card and quietly collecting the rest off the books has a name, skimming, and it is one of the surest ways to raise concern with the IRS. Here is why it is riskier than it looks, and what honest owners do instead."
 category: "finance-economy"
+region: "oklahoma-city-metro"
 date: "2026-04-12"
 coverImage: "https://images.unsplash.com/photo-1683313101534-6c2e604771a4?q=80&w=1600&h=900&fit=crop&auto=format"
 featured: false
@@ -55,5 +56,5 @@ And the climate is friendlier than many fear. In **Texas**, for example, there's
 
 - U.S. Department of Justice, *Owners of Nationwide Nail Salon Business Plead Guilty to Tax Crimes*: https://www.justice.gov/opa/pr/owners-nationwide-nail-salon-business-plead-guilty-tax-crimes
 - Avalara, *One Big Beautiful Bill Act changes 1099 reporting threshold*: https://www.avalara.com/blog/en/north-america/2025/07/one-big-beautiful-bill-act-1099-reporting-threshold.html
-- Keeper, *Does Zelle Report to the IRS: 1099-K Rule Exemption*: https://www.keepertax.com/posts/does-zelle-report-to-irs
+- Keeper, *Does Zelle Report to the IRS: 1099-K Rule Exemption*: https://www.keepertax.com/posts/does-zelle-report-irs
 - IRS, *One Big Beautiful Bill: No tax on tips*: https://www.irs.gov/newsroom/one-big-beautiful-bill-how-to-take-advantage-of-no-tax-on-tips-and-overtime
