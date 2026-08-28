@@ -4,7 +4,7 @@ slug: "fashion-nails-spa-skimming-taxes"
 excerpt: "Charging part of a service on the card and quietly collecting the rest off the books has a name, skimming, and it is one of the surest ways to raise concern with the IRS. Here is why it is riskier than it looks, and what honest owners do instead."
 category: "finance-economy"
 region: "oklahoma-city-metro"
-date: "2026-03-09"
+date: "2026-03-29"
 coverImage: "https://images.pexels.com/photos/7621140/pexels-photo-7621140.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
 featured: false
 imageCredit: "Photo: Pexels"
